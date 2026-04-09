@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Shahar info</title>
+</head>
+<body>
+
+    <h2>Shahar haqida ma'lumot</h2>
+
+    <p><b>Shahar:</b> {{ shahar }}</p>
+    <p><b>Harflar soni:</b> {{ uzunlik }}</p>
+    <p><b>Bosh harf bilan boshlanadimi:</b> 
+        {% if bosh_harf %}
+            Ha ✅
+        {% else %}
+            Yo‘q ❌
+        {% endif %}
+    </p>
+
+</body>
+</html>
